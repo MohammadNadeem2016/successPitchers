@@ -2,7 +2,7 @@
   width: 100%;
   padding-right: 9%;
   padding-left: 9%;
-  padding-top: 6%;
+  padding-top: 2%;
   overflow: hidden;
   overflow-x: hidden;
   background: linear-gradient(
@@ -35,7 +35,7 @@
 }
 .rowFooter {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 3fr 1fr;
   row-gap: 1rem;
   column-gap: 2rem;
   margin-right: -15px;
@@ -48,11 +48,16 @@
   overflow: hidden;
   overflow-x: hidden;
 }
+.col-sm-right {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+}
 .footer-area .widget {
-  margin-bottom: 70px;
+  margin-bottom: 4%;
 }
 .footer-area .widget-title {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   margin-bottom: 27px;
   font-size: 1rem;
   font-weight: 400;
@@ -62,6 +67,10 @@
 }
 .footer-area .widget_about p {
   color: rgba(0, 0, 0, 0.9);
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .footer-area .contact_info_list {
   margin: 0;
@@ -71,6 +80,10 @@
 .footer-area .contact_info_list li {
   list-style: none;
   color: rgba(0, 0, 0, 0.9);
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   padding-left: 28px;
   position: relative;
   margin-bottom: 10px;
@@ -141,15 +154,43 @@
 .widget .contact_info_list .modificationIcon {
   color: #fff;
 }
-// .footer-bottom {
-//   border-top: 1px solid #fff;
-//   padding: 25px 0;
-// }
-// .footer-bottom p {
-//   color: rgba(255, 255, 255, 0.7);
-//   margin-bottom: 0;
-//   margin-top: 5px;
-// }
+.pd-top-99 {
+  height: 2px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.textMiddle {
+  text-align: center;
+}
+.footer-bottom {
+  padding: 25px 0;
+}
+.footer-bottom p {
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.widget_nav_menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-content: space-between;
+  padding-bottom: 1rem;
+}
+.widget_nav_menu a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 // .footer {
 //   background-color: $color-grey-dark-3;
 //   font-size: 0.875rem;
