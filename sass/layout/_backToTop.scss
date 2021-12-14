@@ -9,19 +9,23 @@
   height: 48px;
   border-radius: 4px;
   color: #fff;
-  background-color: #00ffff;
+  background: linear-gradient(to right, #00ffff, #a020f0);
   text-align: center;
   line-height: 49px;
   z-index: 99;
   font-size: 16px;
   transition: 0.4s;
   cursor: pointer;
-  display: none;
+  // display: none;
   animation: backto-top-bounce 4s infinite ease-in-out;
 }
 .back-to-top:hover {
-  box-shadow: 0px 3px 7px 0px rgba(254, 242, 46, 0.35);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.6);
 }
+.myBtnBtoT {
+  display: none;
+}
+
 @keyframes backto-top-bounce {
   0% {
     transform: translateY(-5px);
