@@ -25,6 +25,30 @@
   justify-content: center;
   align-items: center;
 }
+.backDesign {
+  padding: 0 1rem;
+  background-color: #000;
+  border-radius: 3px;
+}
+.logo {
+  transition: all 0.9s ease-in;
+  background-image: linear-gradient(to right, #00ffff, #a020f0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 1;
+}
+.logo span {
+  font-weight: 400;
+}
+.logo.logoImportant {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
 .pd-top-95 {
   height: 1.5px;
   width: 100%;
@@ -177,7 +201,7 @@
 }
 .widget_nav_menu {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
   align-content: space-between;
   padding-bottom: 1rem;
