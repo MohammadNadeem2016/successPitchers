@@ -107,26 +107,11 @@ const prevSlide= ()=>{
         }
 
 // When the user clicks on the button, scroll to the top of the document
-//             function topFunction() {
-//          document.body.scrollTop = 0;
-//          document.documentElement.scrollTop = 0;
-// }
+            function topFunction() {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+}
 
-// Smooth Scrolling
-$('.back-to-top, .navbar').on('click', function(event) {
-    if (this.hash !== '') {
-      event.preventDefault();
-  
-      const hash = this.hash;
-  
-      $('html, body').animate(
-        {
-          scrollTop: $(hash).offset().top - 100
-        },
-        800
-      );
-    }
-  });
+
 
 
 

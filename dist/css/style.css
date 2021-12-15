@@ -1080,7 +1080,7 @@ body {
   position: fixed;
   height: 3rem;
   width: 100%;
-  top: 0;
+  top: 3rem;
   left: 0;
   bottom: 0;
   right: 0;
@@ -1088,13 +1088,13 @@ body {
 
 .navbar {
   position: fixed;
-  top: 0;
+  top: 3rem;
   left: 0;
   width: 100%;
   z-index: 100000;
   height: 3rem;
   transition: all 0.9s ease-in;
-  background: linear-gradient(to bottom, rgba(32, 22, 84, 0.3) 52%, rgba(0, 0, 100, 0));
+  background: linear-gradient(to bottom, rgba(32, 22, 84, 0.5) 52%, rgba(0, 0, 100, 0.5));
   margin-top: 0rem; }
 
 .menu {
@@ -1103,14 +1103,23 @@ body {
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: #fff; }
 
-.backDesign {
-  padding: 0 1rem;
+.backDesign1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3rem;
+  padding: auto 1rem;
   background-color: #000;
-  border-radius: 3px; }
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; }
 
 .logo {
   transition: all 0.9s ease-in;
@@ -1188,7 +1197,10 @@ body {
 .container.active .linksMain .menuMain {
   visibility: hidden; }
 
-.container.active .navbar .menu .logo {
+.container.active .backDesign1 {
+  background-color: transparent; }
+
+.container.active .logo {
   transition: all 0.2s ease-in;
   opacity: 1; }
 
@@ -1220,16 +1232,17 @@ ul {
 .linksMain .menuMain {
   text-decoration: none;
   color: #fff;
-  padding: 0.7rem 0.7rem;
+  padding: 0.7rem 1.5rem;
   display: inline-block;
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  visibility: visible; }
+  visibility: visible;
+  margin-right: 1rem; }
 
 .linksMain .menuMain:hover {
-  background: linear-gradient(to top, rgba(32, 22, 84, 0.3) 52%, rgba(0, 0, 100, 0)); }
+  background-color: rgba(0, 0, 0, 0.7); }
 
 .links a {
   text-decoration: none;
@@ -1289,10 +1302,6 @@ ul {
 .scrollDown {
   visibility: hidden;
   opacity: 0; }
-
-.scrollBorderBottom {
-  background-color: rgba(0, 0, 0, 0.4);
-  filter: drop-shadow(0 10px 20px white); }
 
 .single-post-wrap {
   position: relative;
