@@ -112,6 +112,25 @@ const prevSlide= ()=>{
 }
 
 
+// Magazine Page Start
+
+
+
+// Magazine Page End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
