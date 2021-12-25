@@ -56,7 +56,6 @@
   height: 3rem;
   padding: auto 1rem;
   background-color: #000;
-  // border-radius: 3px;
   text-align: center;
   display: grid;
   justify-content: center;
@@ -65,18 +64,11 @@
 }
 .logo {
   transition: all 0.9s ease-in;
-  background-image: linear-gradient(to right, #00ffff, #a020f0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 1.1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   opacity: 1;
 }
-.logo span {
-  font-weight: 400;
+.backDesign1 .logoImage {
+  height: 3rem;
+  width: auto;
 }
 .hamburger-menu {
   height: 3rem;

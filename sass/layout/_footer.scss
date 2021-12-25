@@ -29,21 +29,17 @@
   padding: 0 1rem;
   background-color: #000;
   border-radius: 3px;
+  text-align: center;
+  padding-top: 0.4rem;
+}
+.backDesign .logoImage {
+  height: 2rem;
+  width: auto;
 }
 .logo {
   transition: all 0.9s ease-in;
-  background-image: linear-gradient(to right, #00ffff, #a020f0);
-  background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   opacity: 1;
-}
-.logo span {
-  font-weight: 400;
 }
 .logo.logoImportant {
   font-size: 1rem;

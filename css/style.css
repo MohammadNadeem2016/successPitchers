@@ -715,22 +715,18 @@ body {
 .backDesign {
   padding: 0 1rem;
   background-color: #000;
-  border-radius: 3px; }
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 0.4rem; }
+
+.backDesign .logoImage {
+  height: 2rem;
+  width: auto; }
 
 .logo {
   transition: all 0.9s ease-in;
-  background-image: linear-gradient(to right, #00ffff, #a020f0);
-  background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   opacity: 1; }
-
-.logo span {
-  font-weight: 400; }
 
 .logo.logoImportant {
   font-size: 1rem;
@@ -1123,18 +1119,11 @@ body {
 
 .logo {
   transition: all 0.9s ease-in;
-  background-image: linear-gradient(to right, #00ffff, #a020f0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 1.1rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   opacity: 1; }
 
-.logo span {
-  font-weight: 400; }
+.backDesign1 .logoImage {
+  height: 3rem;
+  width: auto; }
 
 .hamburger-menu {
   height: 3rem;
@@ -1930,6 +1919,101 @@ ul {
   100% {
     transform: translateY(-5px); } }
 
+.customAlignButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%; }
+
+button.digitalVersion {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1%;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to right, #00ffff, #a020f0);
+  z-index: 3; }
+
+button.digitalVersion:hover,
+button.digitalVersion:active,
+button.digitalVersion:visited {
+  background: linear-gradient(to top, rgba(32, 22, 84, 0.3) 52%, rgba(0, 0, 100, 0));
+  transition: all 0.3s ease-in-out;
+  color: #000; }
+
+.customImgHeight {
+  height: 80vh;
+  vertical-align: middle; }
+
+.customFont {
+  font-size: 1.5rem !important;
+  color: #000; }
+
+.business-post-wrap {
+  width: 100%;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.business-post-wrap .thumb img {
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 5px; }
+
+.customMarginBusiness .details {
+  text-align: center; }
+
+.customMarginBusiness {
+  margin-bottom: -1rem !important; }
+
+.custom-MB {
+  margin-bottom: -2rem; }
+
+.cover-post-wrap {
+  width: 100%;
+  padding-top: 2rem;
+  text-align: center; }
+
+.cover-post-wrap .thumb img {
+  height: 80vh;
+  width: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5); }
+
+.cover-post-wrap .details {
+  padding-top: 2rem; }
+
+.cover-post-wrap .details p {
+  padding-top: 1rem; }
+
+.strongHighlighter {
+  color: #000;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px; }
+
+.paragraphContainer {
+  text-transform: none !important;
+  text-align: start !important;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 1.5rem;
+  color: #000; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 15.625rem 0;
@@ -2010,6 +2094,11 @@ ul {
 
 .text-center {
   text-align: center; }
+
+#work-a .items .item .item-text .item-text-title a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer; }
 
 .py-3 {
   padding: 3rem 0; }
