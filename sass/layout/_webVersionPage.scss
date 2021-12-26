@@ -32,7 +32,7 @@ button.digitalVersion:visited {
   color: #000;
 }
 .customImgHeight {
-  height: 80vh;
+  height: 80vh !important;
   vertical-align: middle;
 }
 .customFont {
@@ -65,4 +65,10 @@ button.digitalVersion:visited {
 }
 .custom-MB {
   margin-bottom: -2rem;
+}
+.thumb.customHeightWidth {
+  height: 80vh;
+  width: 90vw;
+  margin: auto;
+  margin-bottom: 27px;
 }
