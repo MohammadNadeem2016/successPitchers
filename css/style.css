@@ -1076,7 +1076,7 @@ body {
   position: fixed;
   height: 3rem;
   width: 100%;
-  top: 3rem;
+  top: 4rem;
   left: 0;
   bottom: 0;
   right: 0;
@@ -1084,7 +1084,7 @@ body {
 
 .navbar {
   position: fixed;
-  top: 3rem;
+  top: 4rem;
   left: 0;
   width: 100%;
   z-index: 100000;
@@ -1108,7 +1108,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 3rem;
+  height: 4rem;
   padding: auto 1rem;
   background-color: #000;
   text-align: center;
@@ -1122,7 +1122,7 @@ body {
   opacity: 1; }
 
 .backDesign1 .logoImage {
-  height: 3rem;
+  height: 4rem;
   width: auto; }
 
 .hamburger-menu {
@@ -1207,6 +1207,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center; }
+
+.py-Top {
+  padding-top: 1.8rem; }
 
 ul {
   list-style: none; }
@@ -2009,7 +2012,7 @@ button.digitalVersion:visited {
 
 .cover-post-wrap {
   width: 100%;
-  padding-top: 2rem;
+  padding-top: 2.3rem;
   text-align: center; }
 
 .cover-post-wrap .thumb img {
