@@ -40,7 +40,7 @@
   display: block;
   padding-bottom: 1.5rem;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   color: #000;
   letter-spacing: 1px;
@@ -222,9 +222,9 @@
 .containerMagazine.activeMaga .linksMain .menuMain {
   visibility: hidden;
 }
-.containerMagazine.activeMaga .backDesign1 {
-  background-color: transparent;
-}
+// .containerMagazine.activeMaga .backDesign1 {
+//   background-color: transparent;
+// }
 .containerMagazine.activeMaga .logo {
   transition: all 0.2s ease-in;
   opacity: 1;

@@ -972,9 +972,10 @@ body {
 .slider {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 88.8vh;
   width: 100%;
   left: 0;
+  top: 4rem;
   transition: all 0.4s ease-in-out; }
 
 .slide {
@@ -992,6 +993,7 @@ body {
 .slide .content {
   position: absolute;
   bottom: 70px;
+  font-weight: 400;
   left: -600px;
   opacity: 0;
   width: 600px;
@@ -1000,25 +1002,29 @@ body {
   color: #fff;
   padding: 10px 25px; }
 
+.slide .content a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff; }
+
 .slide.current .content {
   opacity: 1;
   transform: translateX(600px);
-  transition: all 0.7s ease-in-out 0.3s; }
+  transition: all 0.7s ease-in-out 0.3s;
+  cursor: pointer;
+  z-index: 720; }
 
 .slide:nth-child(1) {
-  background: url(../img/img4.jpeg) no-repeat center center/cover; }
+  background: url(../img/img1.jpg) no-repeat center center/cover; }
 
 .slide:nth-child(2) {
-  background: url(../img/img5.jpeg) no-repeat center center/cover; }
+  background: url(../img/img2.png) no-repeat center center/cover; }
 
 .slide:nth-child(3) {
-  background: url(../img/img7.jpeg) no-repeat center center/cover; }
+  background: url(../img/img3.jpg) no-repeat center center/cover; }
 
 .slide:nth-child(4) {
-  background: url(../img/img3.jpeg) no-repeat center center/cover; }
-
-.slide:nth-child(5) {
-  background: url(../img/img1.jpeg) no-repeat center center/cover; }
+  background: url(../img/img4.jpg) no-repeat center center/cover; }
 
 .buttons button#next {
   position: absolute;
@@ -1186,9 +1192,6 @@ body {
 .container.active .linksMain .menuMain {
   visibility: hidden; }
 
-.container.active .backDesign1 {
-  background-color: transparent; }
-
 .container.active .logo {
   transition: all 0.2s ease-in;
   opacity: 1; }
@@ -1348,7 +1351,6 @@ ul {
 ---------------------------------------*/
 .containerBusiness {
   width: 100%;
-  background: linear-gradient(to bottom, rgba(32, 22, 84, 0.3) 52%, rgba(0, 0, 100, 0));
   padding-right: 5%;
   padding-left: 5%;
   padding-top: 6%;
@@ -1365,8 +1367,6 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-right: -15px;
-  margin-left: -15px;
   overflow: hidden;
   overflow-x: hidden; }
 
@@ -1629,6 +1629,10 @@ ul {
   justify-items: center;
   align-items: center;
   align-content: center; }
+
+.bannerSection img {
+  height: 100%;
+  width: 90%; }
 
 .containerArticle {
   width: 100%;
@@ -2039,7 +2043,7 @@ button.digitalVersion:visited {
   text-transform: none !important;
   text-align: start !important;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   padding-bottom: 1.5rem;
   color: #000; }
@@ -2148,7 +2152,7 @@ button.digitalVersion:visited {
   display: block;
   padding-bottom: 1.5rem;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   color: #000;
   letter-spacing: 1px; }
@@ -2320,9 +2324,6 @@ button.digitalVersion:visited {
 
 .containerMagazine.activeMaga .linksMain .menuMain {
   visibility: hidden; }
-
-.containerMagazine.activeMaga .backDesign1 {
-  background-color: transparent; }
 
 .containerMagazine.activeMaga .logo {
   transition: all 0.2s ease-in;
