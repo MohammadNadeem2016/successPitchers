@@ -33,7 +33,7 @@
   //   rgba(0, 0, 100, 0)
   // );
 
-  background-color: rgba(0, 0, 0, 0.5);
+  // background-color: rgba(0, 0, 0, 0.5);
 }
 .thumb a,
 .details a {
@@ -44,7 +44,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 1px 2px;
+  // padding: 1px 2px;
   overflow: hidden;
   overflow-x: hidden;
 }
@@ -52,10 +52,10 @@
   color: #fff;
 }
 .thumb a:hover {
-  display: inline-block;
-  background-color: #fff;
+  // display: inline-block;
+  // background-color: #fff;
   border-radius: 2px;
-  padding: 1px 2px;
+  // padding: 1px 2px;
   color: #000;
   transition: all 0.3s ease-in;
 }
